@@ -1,11 +1,12 @@
-import AddModalPlanner from "./components/AddModalPlanner"
+import AddModalButton from "./components/AddTodoButton"
 import Header from "./components/Header"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div>
      <Header/>
-     <AddModalPlanner/>
+     <AddModalButton/>
     </div>
   )
 }
